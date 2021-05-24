@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shuku/shuku",
+    "pages/set/set",
+    "pages/generate/generate"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二维码解码器",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#f4645f",
+    "backgroundColor": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "扫码验真",
+      "iconPath":"pages/images/sao.png",
+      "selectedIconPath":"pages/images/sao.png"
+    }, 
+    {
+      "pagePath": "pages/shuku/shuku",      
+      "text": "产品目录",
+      "iconPath":"pages/images/list.png",
+      "selectedIconPath":"pages/images/list.png"
+    }
+    
+    ],
+    "position": "bottom"
+  }}
+
+

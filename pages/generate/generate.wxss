@@ -1,0 +1,6 @@
+/* pages/generate/generate.wxss */
+.tl-price-input{
+  border:1rpx solid #ddd;
+  border-radius: 14rpx;
+  padding: 10rpx;
+}

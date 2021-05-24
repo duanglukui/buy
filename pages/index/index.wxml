@@ -1,0 +1,18 @@
+<!--pages/index/index.wxml-->
+<view class="root">    
+    <view class="jieguo">
+    <view wx:if="{{show_r}}" class="location"><view style='font-weight:bold;'>二维码/条形码解码结果：</view>    
+    <view class='location_r' bindtap="copyBtn"><text>{{location}}</text></view>    
+    </view>
+    <view wx:if="{{show_img}}" class="ip-value"><view class="ip-value2" bindtap="queryIp"><view class="ip-value3">选择二维码/条形码图片</view></view></view>
+    <button type="primary" class="query-button" bindtap="queryIp">扫二维码/条形码</button>
+
+    </view>    
+    
+    
+</view>
+
+<view class="banquan">
+    <text class="bq" bindtap="banquan">©数字签名无效时验真结果仅供参考</text>
+</view>
+

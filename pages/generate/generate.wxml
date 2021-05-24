@@ -1,0 +1,11 @@
+ <view class="container">
+  <canvas class="canvas-code"canvas-id="canvas" style="background:#fff;width: 200px;height: 200px;"/>
+   <form bindsubmit='generate'>
+      <view><text>产品代码: </text></view>
+       <input type='text' name='content' class="tl-price-input"></input>
+       <button form-type='submit' class="g_button">生成</button>
+   </form>
+  <view class="modal-button">
+     <button bindtap='savePic' class="g_button">保存</button>
+  </view>
+ </view>
